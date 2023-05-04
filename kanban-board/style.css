@@ -1,0 +1,71 @@
+body {
+    background-color: #242424;
+    text-align: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+
+    text-align: initial;
+}
+
+.title {
+    color: #FFF;
+    font-family: cursive;
+    font-size: 3em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #EBECf0;
+    border-radius: 10px;
+
+    width: 500px;
+    height: 70vh;
+    margin: 20px;
+}
+
+.container .todo,
+.container .doing,
+.container .done {
+    color: #FFF;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    margin: 0;
+}
+
+.container .todo {
+    background-color: #87B4D8;
+}
+
+.container .doing {
+    background-color: #EE9193;
+}
+
+.container .done {
+    background-color: #2FBFBF;
+}
+
+.drop-zone {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.task {
+    background-color: #FFF;
+    border-radius: 3px;
+    box-sizing: 0 1px 0 rgba(9, 30, 66, 0.25);
+
+    min-height: 5vh;
+    margin: 10px;
+    padding: 10px;
+
+    cursor: pointer;
+}

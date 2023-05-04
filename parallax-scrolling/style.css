@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.parrallax {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    background-image: url('sky.png');
+}
+
+.moon {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+
+    /* background: #F5D059;
+    box-shadow: inset -15px 0 #EDC541;
+    border-radius: 50%; */
+}
+
+.moon img {
+    width: 200px;
+    height: 200px;
+}
+
+.mountain {
+    width: 100vw;
+    height: 150vh;
+    z-index: 10;
+
+    background: url('mountain.png') bottom / contain no-repeat;
+}
+
+h1 {
+    position: absolute;
+    top: 70%;
+    color: #FFF;
+    font-size: 3.78vw;
+    text-shadow: 3px 3px #000;
+    text-transform: uppercase;
+}
